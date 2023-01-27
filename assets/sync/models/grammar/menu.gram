@@ -1,0 +1,50 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = apple |
+	  camera |
+	  battery |
+	  burst |
+	  clean |
+	  clown |
+	  close |
+	  equipment |
+	  end |
+	  fresh |
+	  garden |
+	  hidden |
+	  info |
+	  jack |
+	  lapse |
+	  left |
+	  level |
+	  light |
+	  movie |
+	  mode |
+	  on |
+	  off |
+	  recording |
+	  picture |
+	  photo |
+	  right |
+	  request |
+	  save |
+	  software |
+	  start |
+	  swap |
+	  set |
+	  sorry |
+	  shoot |
+	  state |
+	  start |
+	  stop |
+	  take |
+	  test |
+	  time |
+	  turn |
+	  union |
+	  video ;
+<action> = (on | off | start | stop | take);
+
+public <digits> = <digit> <action>+;

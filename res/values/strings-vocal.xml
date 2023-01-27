@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- Commandes Vocales -->
+   	<string name="START_RECORD_VIDEO">Video Recording</string>
+   	<string name="STOP_RECORD_VIDEO">stopping Recording </string>
+   	<string name="TAKE_PICTURE">Photo Ok</string>
+   	<string name="BURST_PICTURE">Burst OK</string>
+ 	<string name="CAMERA_ON">Camera on</string>
+   	<string name="CAMERA_OFF">Camera of</string>
+   	<string name="CONNECT_BLUETOOTH">headset conected</string>
+   	<string name="DISCCONNECT_BLUETOOTH">headset disconected</string>
+   	<string name="MODE_VIDEO">Photo OK</string>
+   	<string name="MODE_PHOTO">Burst OK</string>
+   	<string name="NO_ACTION">No action</string>
+   	
+</resources>

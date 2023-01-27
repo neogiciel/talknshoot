@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/back_nav">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp" >
+ 
+        <TextView
+           style="@style/FuturaBk"
+           android:id="@+id/txt_titre"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="28sp"
+           android:textColor="@color/txt_titre_color"
+           android:text="TEST" />
+        
+          <TextView
+           android:id="@+id/txt_1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_color"
+           android:text="Message..." />
+        
+  </LinearLayout>    
+
+   <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp" >
+ 
+       <Button
+        	android:id="@+id/btn_test"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="10dp"
+        	android:layout_gravity="center_horizontal"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="Start"/>
+   
+  	 <Button
+        	android:id="@+id/btn_test1"
+        	android:layout_below="@+id/btn_test"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="10dp"
+        	android:layout_gravity="center_horizontal"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="Stop"/>
+   
+  	 <Button
+        	android:id="@+id/btn_test2"
+        	android:layout_below="@+id/btn_test1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="10dp"
+        	android:layout_gravity="center_horizontal"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="Play"/>
+  	  
+  	  <Button
+        	android:id="@+id/btn_test3"
+        	android:layout_below="@+id/btn_test2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="10dp"
+        	android:layout_gravity="center_horizontal"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="Stop Play"/>
+  	  
+  	   <Button
+        	android:id="@+id/btn_test4"
+        	android:layout_below="@+id/btn_test4"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="10dp"
+        	android:layout_gravity="center_horizontal"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="Divers Test"/>
+    	
+     </LinearLayout>    
+    
+</RelativeLayout>

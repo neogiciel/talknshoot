@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/back_nav">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp" >
+ 
+        <TextView
+           android:id="@+id/txt_titre"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_titre_size"
+           android:textColor="@color/txt_titre_color"
+           android:text="@string/controlvoice_txt_titre" />
+  </LinearLayout>    
+   <LinearLayout
+        android:id="@+id/layout2"
+       	android:layout_below="@+id/layout1"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp" >
+ 
+       <ImageView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/pix_voice_txt" /> 
+    
+       <!-- android:layout_width="fill_parent" -->
+    	<!-- android:layout_width="wrap_content" -->
+    
+  </LinearLayout>    
+   <LinearLayout
+       	android:id="@+id/layout3"
+       	android:layout_below="@+id/layout2"
+		android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp" >
+ 
+          <Button
+        	android:id="@+id/btn_start"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_voice_start"/>
+          
+          <Button
+        	android:id="@+id/btn_stop"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_voice_stop"/>
+          
+    		</LinearLayout>
+
+   		 <LinearLayout
+       	android:id="@+id/layout4"
+       	android:layout_below="@+id/layout3"
+		android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp" >
+ 
+   		     
+            <Button
+        	android:id="@+id/btn_bluetooth_start"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_voice_bluetooth_start"/>
+   
+            <Button
+        	android:id="@+id/btn_bluetooth_stop"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_voice_bluetooth_stop"/>
+            
+   		</LinearLayout>
+    	<LinearLayout
+       	android:id="@+id/layout5"
+       	android:layout_below="@+id/layout4"
+		android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp" >
+ 
+    	    
+    	       	<TextView
+           android:id="@+id/txt_titre_process"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_titre_color"
+           android:text="@string/controlvoice_txt_process1" />
+        		
+        			<TextView
+           android:id="@+id/txt_process"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_color"
+           android:text="@string/controlvoice_txt_process2" />
+        			
+    	    	<TextView
+           android:id="@+id/txt_titre_partial_result"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_titre_color"
+           android:text="@string/controlvoice_txt_partial_result1" />
+        		
+        			<TextView
+           android:id="@+id/txt_partial_result"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_color"
+           android:text="@string/controlvoice_txt_partial_result2" />
+
+            <TextView
+           android:id="@+id/txt_titre_action"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_titre_color"
+           android:text="@string/controlvoice_txt_action1" />
+        		
+        	<TextView
+           android:id="@+id/txt_action"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_color"
+           android:text="@string/controlvoice_txt_action2" />
+        			
+        							    
+        		<TextView
+           android:id="@+id/txt_titre_result"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_titre_color"
+           android:text="@string/controlvoice_txt_result1" />
+        		
+        			<TextView
+           android:id="@+id/txt_result"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_color"
+           android:text="@string/controlvoice_txt_result2" />
+        			
+        			
+    		
+    		</LinearLayout>        
+</RelativeLayout>

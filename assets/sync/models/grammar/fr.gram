@@ -1,0 +1,33 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = poire |
+	  pomme |
+	  deux |
+	  trois |
+	  deux |
+	  trois |
+	  quatre |
+	  cinq |
+	  six |
+	  sept |
+	  huit |
+	  neuf |
+	  arrondissement |
+	  artistiquement |
+	  berce |
+	  bertolt |
+	  bloquait |
+	  demeurant |
+	  dentistes |
+	  distribuent |
+	  dizzy |
+	  arreter |
+	  camera |
+	  enregistrer |
+	  info |
+	  photo |
+	  prendre |
+	  video ;
+public <digits> = <digit>+;

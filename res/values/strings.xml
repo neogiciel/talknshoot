@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">talknshoot</string>
+    <string name="hello_world">Bonjour</string>
+    <string name="file_ini">talknshoot.ini</string>
+    <string name="application_debug">dev</string>
+    <string name="application_url_admin">http://admin.talknshoot.com/app/</string>
+    
+    <!-- version -->
+    <string name="versionid">1</string>
+    <string name="versiontype">ANDROID</string>
+    <string name="versionabo">FREE</string>
+    <string name="versionduration">12</string>
+    <string name="versionindex">1</string>
+    
+    <!-- Grammar -->
+    <!-- http://passwordsgenerator.net/md5-hash-generator/-->
+    <!-- http://onlinemd5.com/-->
+    <!-- http://www.speech.cs.cmu.edu/tools/lmtool-new.html-->
+    
+    <!-- Page HOME -->
+    <string name="home_txt_titre">Welcome</string>
+    <string name="home_txt_message">The best way to control your action cam</string>
+    <string name="btn_control">control</string>
+    <string name="btn_media">medias</string>
+    <string name="btn_help">\?</string>
+    <string name="btn_parameter">settings</string>
+    <string name="btn_add">connect</string>
+    <string name="btn_plus">credits</string>
+    <string name="btn_connect">connect</string>
+
+    <!-- Page CONTROL CONNECT WIFI -->
+    <string name="controlconnectwifi_txt_titre">Connect your action cam</string>
+    <string name="controlconnectwifi_txt_ask">Connect the Wi-Fi of your action cam</string>
+    <string name="btn_controlconnectwifi_next">next</string>
+    <string name="btn_controlconnectwifi_refresh">update</string>
+    <string name="controlconnectwifi_txt_titre_camera">Your action cam actually  configured :</string>
+    <string name="controlconnectwifi_txt_camera">wait</string>
+    <string name="controlconnectwifi_txt_camera_empty">no action cam available</string>
+    <string name="controlconnectwifi_txt_titre_actualcamera">Your Wi-Fi Connected:</string>
+    <string name="controlconnectwifi_txt_actualcamera">wait</string>
+    <string name="controlconnectwifi_txt_no_wifi">none</string>
+    <string name="controlconnectwifi_txt_progress">looking for action cam...</string>
+    
+    <!-- Page CONTROL CHOISE -->
+    <string name="controlchoise_txt_titre">Control</string>
+    <string name="controlchoise_txt_ask">Control your action cam</string>
+    <string name="btn_choise_manual">manually</string>
+    <string name="btn_choise_voice">with you\'re voice</string>
+    <string name="btn_choise_refresh">update</string>
+    <string name="btn_choise_help">help</string>
+    <string name="controlchoise_txt_titre_camera">Your action cam configured :</string>
+    <string name="controlchoise_txt_camera">wait</string>
+    <string name="controlchoise_txt_camera_empty">No action cam available</string>
+    <string name="controlchoise_txt_titre_actualcamera">Your Wifi Connected:</string>
+    <string name="controlchoise_txt_actualcamera">wait</string>
+    <string name="controlchoise_txt_typecamera">wait</string>
+
+    <!-- Page CONTROL NO CAMERA -->
+    <string name="controlnocamera_txt_titre">no action cam</string>
+    <string name="controlnocamera_txt_1">No action cam actually configured.\n\nPlease configure your action cam</string>
+    <string name="btn_controlnocamera_add">set up your action cam</string>
+    <string name="btn_controlnocamera_back">back</string>
+    
+    
+    <!-- Page CONTROL MANUAL -->
+    <string name="controlmanual_txt_titre">Manual control</string>
+    <string name="controlmanual_txt_1">Press the buttons below in order to command your action cam</string>
+    <string name="btn_manual_take_photo">take photo</string>
+    <string name="btn_manual_burst_photo">burst photo</string>
+    <string name="btn_manual_start">start recording</string>
+    <string name="btn_manual_stop">stop recording</string>
+    <string name="btn_manual_camera_on">camera on</string>
+    <string name="btn_manual_camera_off">camera sleep</string>
+    
+    <!-- Page CONTROL VOICE -->
+    <string name="controlvoice_txt_titre">Voice control</string>
+    <string name="btn_voice_start">start</string>
+    <string name="btn_voice_stop">stop</string>
+    <string name="btn_voice_bluetooth_start">connect headset</string>
+    <string name="btn_voice_bluetooth_stop">disconnect headset</string>
+    <string name="controlvoice_txt_action1">ACTION</string>
+    <string name="controlvoice_txt_action2">waiting..</string>
+    <string name="controlvoice_txt_result1">VOIX</string>
+    <string name="controlvoice_txt_result2">waiting..</string>
+    <string name="controlvoice_txt_partial_result1">PARTIEL</string>
+    <string name="controlvoice_txt_partial_result2">waiting..</string>
+    <string name="controlvoice_txt_process1">PROCESSING</string>
+    <string name="controlvoice_txt_process2">waiting..</string>
+    
+    <!-- Page UPDATE -->
+    <string name="update_txt_titre">Update</string>
+    <string name="btn_update_premium">download</string>
+    
+    <!-- Page MEDIA -->
+    <string name="media_txt_titre">Media</string>
+    <string name="btn_media_premium">download</string>
+
+    <!-- Page MEDIAERROR -->
+    <string name="mediaerror_txt_titre">Media</string>
+    <string name="mediaerror_txt1">action cam not connected\n check your connexion</string>
+    <string name="btn_mediaerror_back">back</string>
+    
+    <!-- Page MEDIA1 -->
+    <string name="media1_txt_titre">Media</string>
+    <string name="media1_txt_result1">Select a media</string>
+    <string name="media1_txt_result2">Your list is empty</string>
+    
+    <!-- Page ADD -->
+    <string name="add_txt_titre">Configure your action cam</string>
+    <string name="add_txt_1">You are now going to couple your action cam with the app\n\nThe connexion between your cam and your Smartphone is done with Wi-Fi.\n\nPlease turn on the wifi of your smartphone</string>
+    <string name="btn_add_start">start</string>
+    
+    <!-- Page ADD2 -->
+    <string name="add2_txt_titre">Your action cam</string>
+    <string name="add2_txt_1">Select your action cam</string>
+    <string-array name="add2_txt_list">
+        <item>HERO6 BLACK</item>
+    	<item>HERO5 BLACK</item>
+    	<item>HERO5 SESSION</item>
+    	<item>HERO SESSION</item>
+    	<item>HERO+</item>
+    	<item>HERO4</item>
+    	<item>HERO3+/3/2</item>
+	</string-array>
+
+    <!-- Page ADD3 -->
+    <string name="add3_txt_titre">Your action cam</string>
+    <string name="add3_txt_1">You have selected</string>
+    <string name="add3_txt_2">none</string>
+    <string name="add3_txt_3">You are now going to connect your action cam with the talknshoot.\n\nYou need to turn on the wifi of your action cam</string>
+    <string name="btn_add3_start">go on</string>
+    <string name="add3_txt_4">For more informations, go to help</string>
+    <string name="btn_add3_help">aide</string>
+    
+    <!-- Page ADD4 -->
+    <string name="add4_txt_titre">Connect your camera</string>
+    <string name="add4_txt_1">Select the wifi of your action cam</string>
+    <string name="btn_add4_start">neogopro</string>
+    
+    <!-- Page ADD4 PASSWORD -->
+    <string name="add4_password_txt_titre">Password of your action cam</string>
+    <string name="add4_password_txt_subtitre">Fill in the password wifi of your action cam</string>
+    <string name="btn_add4_password_start">go on</string>
+    
+    <!-- Page ADD5 -->
+    <string name="add5_txt_titre">Save settings</string>
+    <string name="add5_txt_1">The properties of your action cam are:</string>
+    <string name="add5_txt_subtitre_2">Type of action cam:</string>
+    <string name="add5_txt_2">wait...</string>
+    <string name="add5_txt_subtitre_3">Name of the Wi-fi of your camera</string>
+    <string name="add5_txt_3">wait... </string>
+    <string name="add5_txt_subtitre_4">Wi-fi password of your action cam</string>
+    <string name="add5_txt_4">wait...</string>
+    <string name="btn_add5_start">save</string>
+    
+    <!-- Page PARAMETER -->
+    <string name="parameter_txt_titre">Your settings</string>
+    <string name="parameter_titre_txt_camera">Your action cam</string>
+    <string name="parameter_txt_camera">which action cam is actually configured ?</string>
+    <string name="btn_parameter_camera">check</string>
+    <string name="parameter_titre_txt_abo">About your app</string>
+    <string name="parameter_txt_abo">What are actually your access rights ?</string>
+    <string name="btn_parameter_abo">check</string>
+    <string name="parameter_titre_txt_personnal">Your personal data</string>
+    <string name="parameter_txt_personnal">Check your personal data</string>
+    <string name="btn_parameter_personnal">check</string>
+    
+   	<!-- Page PARAMETER ABO -->
+    <string name="parameterabo_txt_titre">About the app</string>
+    <string name="parameterabo_txt_jour">day(s)</string>
+    <string name="parameterabo_txt_1">Your setup</string>
+    <string name="parameterabo_txt_2">You have setup our app the:</string>
+    <string name="parameterabo_txt_3">your subscription</string>
+    <string name="parameterabo_txt_4">you may use our app for free during:</string>
+    <string name="parameterabo_txt_5">Once this period is over, you may download our premium version</string>
+    <string name="btn_parameterabo_premium1">download</string>
+    <string name="parameterabo_txt_6">You have subscribe for a period of:</string>
+    <string name="parameterabo_txt_7">at the end of this period,  you have to update the premium version</string>
+    <string name="btn_parameterabo_premium2">resubscribe</string>
+    
+   	<!-- Page PARAMETER CAMERA -->
+    <string name="parametercamera_txt_titre">Your action cam</string>
+    <string name="parametercamera_txt_1">Your actual setups are:</string>
+    <string name="parametercamera_txt_2">No action cam is actually configured</string>
+    <string name="parametercamera_titre_txt_cameratype">Action cam</string>
+   	<string name="parametercamera_titre_txt_camerabrand">Manufacturer</string>
+   	<string name="parametercamera_titre_txt_wifiname">Name of the wifi of the action cam</string>
+   	<string name="parametercamera_titre_txt_wifipassword">password of the wifi</string>
+   	
+   	<!-- Page PARAMETER PERSONNAL -->
+    <string name="parameterpersonnal_txt_titre">Your personal data</string>
+    <string name="parameterpersonnal_txt_sub_profil">Your profile</string>
+    <string name="parameterpersonnal_txt_empty">No personal data registered</string>
+    <string name="parameterpersonnal_txt_sub_lang">Your language</string>
+     <string name="parameterpersonnal_txt_lang">FRENCH</string>
+    <string name="btn_parameterpersonnal_back">back</string>
+    
+    <!-- Page DIALOG_BLUETOOTH -->
+    <string name="dialog_bluetooth_txt_titre">Headset bluetooth</string>
+    <string name="dialog_bluetooth_txt_1">Go to the bluetooth menu to connect your headset</string>
+    <string name="dialog_bluetooth_txt_2">Check if your headset is correctly connected</string>
+    <string name="btn_dialog_bluetooth">Close</string>
+    
+   	<!-- Page CREDITS -->
+    <string name="credits_txt_titre">Credits</string>
+    <string name="credits_txt_1"><![CDATA[<body style="width:100%;">
+     <p>The Talk n Shoot is edited by the society <font color="#FF6600">NEOGICIEL</font>.
+     <br>
+     <p><font color="#FF6600">NEOGICIEL Technology</font><br>
+     487 rue des grives<br>
+     33127 Saint Jean d\'illac<br>
+     RCS de BORDEAUX : 478 420 409<br><br>
+     Patent obtained for this technological innovation (WO2017093439, FR3044784).<br>
+     </p>
+     <p align="center"><img src="pix_credits1.png"></p>
+    </body>]]></string>
+    
+</resources>

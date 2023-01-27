@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_txt_color">#FF6600</color>
+    <color name="btn_color">#FF6600</color>
+    <color name="btn_color_1">#FF0000</color>
+    <color name="txt_titre_color">#FF6600</color>
+    <color name="txt_sub_titre_color">#999999</color>
+    <color name="txt_edit_color">#000000</color>
+    <color name="txt_color">#FFFFFF</color>
+    <color name="back_list_color">#FF6600</color>
+    <color name="txt_list_color">#FF6600</color>
+    <color name="back_dialog_color">#000000</color>
+</resources>

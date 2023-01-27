@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <!-- Camera list -->
+    <string name="helpwifi_hero6_black">6</string>
+    <string name="helpwifi_hero5_black">6</string>
+    <string name="helpwifi_hero5_session">5</string>
+    <string name="helpwifi_hero_session">4</string>
+    <string name="helpwifi_hero_plus">3</string>
+    <string name="helpwifi_hero_4">2</string>
+    <string name="helpwifi_hero_3">1</string>
+    
+    <!-- Page HELPWIFI -->
+    <string name="helpwifi_txt_titre">Connect Wifi Camera</string>
+    
+    <!-- Page HERO6 BLACK -->
+    <string name="helpwifi_txt_7"><![CDATA[<body><h1>HERO6 BLACK</h1>
+         <center><img src="camera_list_hero6black.png"></center>
+         <p><font color=#FF6600>Etape 1:Télécharger application GoPro</font></p>
+         <p>Pour connecter le Wi-Fi de votre Caméra <strong>GoPro</strong>
+         vous devez télécharger l\'application GoPro depuis le google store</p>
+         <center><a href=https://play.google.com/store/apps/details?id=com.gopro.smarty><img src="help_app_capture.png"></center>
+         <p><font color=#FF6600>Etape 2:Installer application GoPro</font></p>
+         <p>Après avoir installer l\'application lancer la puis aller dans le menu connecter de votre caméra</p>
+         <p>Le WI-FI sera alors activer revennez ensuite au paramétrage du talknshoot<p>
+         <p><font color=#FF6600>Etape 3:Connecter la Caméra au talknshoot</font></p>
+         <p>Le Wi-Fi ainsi créer aparaitras automatiquement<p>
+         <p>Allez ensuite dans le menu CONNECTER de votre caméra<p>
+         <center><img src="help_screen_gopro6_1.png"></center>
+         <p>Puis dans le menu NOM ET MOT DE PASSE<p>
+         <center><img src="help_screen_gopro6_2.png"></center>
+         <p>Noter le nom et le mot de passe de votre caméra<p>
+	     </body>]]></string>
+	<!-- Page HERO5 BLACK -->
+    <string name="helpwifi_txt_6"><![CDATA[<body><h1>HERO5 BLACK</h1>
+         <center><img src="camera_list_hero5black.png"></a></center>
+         <p>Pour connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         vous devez télécharger l\'application Capture depuis le google store</p>
+         <center><a href=www.stacktips.com><img src="help_app_capture.png"></a></center>
+         <p>Après avoir installer l\'application lancer la puis aller dans le menu connecter votre caméra</p>
+         <p>Le wifi sera alors activer revennez ensuite au paramétrage du talknshoot<p>
+         <p>Le wifi ainsi créer aparaitras automatiquement<p>
+	     </body>]]></string>
+	<!-- Page HERO5 SESSION -->
+    <string name="helpwifi_txt_5"><![CDATA[<body><h1>HERO5 SESSION</h1>
+         <center><img src="camera_list_hero5session.png"></a></center>
+         <p>Pour connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         vous devez télécharger l\'application Capture depuis le google store</p>
+         <center><a href=www.stacktips.com><img src="help_app_capture.png"></a></center>
+         <p>Après avoir installer l\'application lancer la puis aller dans le menu connecter votre caméra</p>
+         <p>Le wifi sera alors activer revennez ensuite au paramétrage du talknshoot<p>
+         <p>Le wifi ainsi créer aparaitras automatiquement<p>
+	     </body>]]></string>
+	<!-- Page HERO SESSION -->
+    <string name="helpwifi_txt_4"><![CDATA[<body><h1>HERO SESSION</h1>
+         <center><img src="camera_list_herosession.png"></a></center>
+         <p>Pour connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         vous devez télécharger l\'application Capture depuis le google store</p>
+         <center><a href=www.stacktips.com><img src="help_app_capture.png"></a></center>
+         <p>Après avoir installer l\'application lancer la puis aller dans le menu connecter votre caméra</p>
+         <p>Le wifi sera alors activer revennez ensuite au paramétrage du talknshoot<p>
+         <p>Le wifi ainsi créer aparaitras automatiquement<p>
+	     </body>]]></string>
+	<!-- Page HERO PLUS -->
+    <string name="helpwifi_txt_3"><![CDATA[<body><h1>HERO PLUS</h1>
+         <center><img src="camera_list_heroplus.png"></a></center>
+         <p>Pour connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         vous devez télécharger l\'application Capture depuis le google store</p>
+         <center><a href=www.stacktips.com><img src="help_app_capture.png"></a></center>
+         <p>Après avoir installer l\'application lancer la puis aller dans le menu connecter votre caméra</p>
+         <p>Le wifi sera alors activer revennez ensuite au paramétrage du talknshoot<p>
+         <p>Le wifi ainsi créer aparaitras automatiquement<p>
+	     </body>]]></string>
+	<!-- Page HERO 4 -->
+    <string name="helpwifi_txt_2"><![CDATA[<body><h1>HERO 4</h1>
+         <center><img src="camera_list_hero4.png"></a></center>
+         <p>Pour connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         vous devez aller sur l ecran tactile selectionner le bouton parametre</p>
+         <p>Aller dans le menu Wifi de votre Caméra</p>
+         <center><img src="help_hero4_screen1.png"></a></center>
+         <p>Après avoir activer le Wifi vous pourrez accéder à votre Wifi<p>
+	     </body>]]></string>
+	<!-- Page HERO 3/2 -->
+    <string name="helpwifi_txt_1"><![CDATA[<body><h1>HERO3+/3/2</h1>
+         <center><img src="camera_list_hero2.png"></a></center>
+         <p>Pour connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         vous devez télécharger l\'application Capture depuis le google store</p>
+         <center><a href=www.stacktips.com><img src="help_app_capture.png"></a></center>
+         <p>Après avoir installer l\'application lancer la puis aller dans le menu connecter votre caméra</p>
+         <p>Le wifi sera alors activer revennez ensuite au paramétrage du talknshoot<p>
+         <p>Le wifi ainsi créer aparaitras automatiquement<p>
+	     </body>]]></string>
+    
+</resources>

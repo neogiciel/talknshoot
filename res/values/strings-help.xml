@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Page HELP -->
+    <string name="help_txt_titre">Le Talk’n Shoot</string>
+    <string name="help_txt_1"><![CDATA[<body>
+     <p>coupled with a bluetooth headset, the Talk’n Shoot will allow you to voice control your action cam.</p>
+     <p>For example, if you say « Start Vidéo » in your headset, the Talk’n Shoot commands you action cam 
+     And you get a instant vocal feedback « video OK » in your headset.</p>
+	<p>With the Talk’n Shoot, no need to use your hands to record your best moments.</p>
+
+	<p><b><font color="#FF6600"> what’s crazy about the Talk’n Shoot</font></b></p> 
+	<p><font color="#FF6600">1.Freedom:</font> With the talk’n shoot, no need to do anything else than talk to control your action cam. 
+	What a real pleasure when you are skiing not to have to take your gloves off to start a movie.</p> 
+	<p><font color="#FF6600">2.Immediacy:</font> with the Talk’n Shoot, no need to stop anymore to 
+	record your best movies. How many users could not turn their action cam on at the very right moment !!</p> 
+	<p><font color="#FF6600">3.Security:</font> with the Talk’n Shoot, no need to perform dangerous moves anymore. 
+	For a biker, no need to take your hands off or even worse to look at in his rearview mirror to check if the red light flashes !!</p>
+	<p>
+	<p><font color="#FF6600">4.No more disappointments:</font> with the oral feedback of the Talk’n Shoot you’ll always know the status of your camera, 
+	you will no more find out afterwords that you missed the unmissable and unforgettable scene.</p>
+	<p align="center"><img src="pix_help1.png"></p>
+    </body>]]></string>
+    
+   
+    
+</resources>

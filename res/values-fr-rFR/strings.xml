@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">talknshoot</string>
+    <string name="hello_world">Bonjour</string>
+    <string name="file_ini">talknshoot.ini</string>
+    <string name="application_debug">dev</string>
+    <string name="application_url_admin">http://admin.talknshoot.com/app/</string>
+    
+    <!-- version -->
+    <string name="versionid">1</string>
+    <string name="versiontype">ANDROID</string>
+    <string name="versionabo">FREE</string>
+    <string name="versionduration">12</string>
+    <string name="versionindex">1</string>
+    
+    <!-- Grammar -->
+    <!-- http://passwordsgenerator.net/md5-hash-generator/-->
+    <!-- http://onlinemd5.com/-->
+    <!-- http://www.speech.cs.cmu.edu/tools/lmtool-new.html-->
+    
+    <!-- Page HOME -->
+    <string name="home_txt_titre">Bienvenue</string>
+    <string name="home_txt_message">La meilleure façon de contrôler votre action cam</string>
+    <string name="btn_control">contrôler</string>
+    <string name="btn_media">médias</string>
+    <string name="btn_help">\?</string>
+    <string name="btn_parameter">paramètres</string>
+    <string name="btn_add">connecter</string>
+    <string name="btn_plus">crédits</string>
+    <string name="btn_connect">connect</string>
+
+    <!-- Page CONTROL CONNECT WIFI -->
+    <string name="controlconnectwifi_txt_titre">Connecter Votre Caméra</string>
+    <string name="controlconnectwifi_txt_ask">Connecter le Wi-Fi de votre caméra</string>
+    <string name="btn_controlconnectwifi_next">continuer</string>
+    <string name="btn_controlconnectwifi_refresh">actualiser</string>
+    <string name="controlconnectwifi_txt_titre_camera">Votre Camera configurée :</string>
+    <string name="controlconnectwifi_txt_camera">patientez</string>
+    <string name="controlconnectwifi_txt_camera_empty">Aucune caméra disponible</string>
+    <string name="controlconnectwifi_txt_titre_actualcamera">Votre Wi-Fi Connecté:</string>
+    <string name="controlconnectwifi_txt_actualcamera">patientez</string>
+    <string name="controlconnectwifi_txt_no_wifi">aucun</string>
+    <string name="controlconnectwifi_txt_progress">recherche de la caméra...</string>
+    
+    <!-- Page CONTROL CHOISE -->
+    <string name="controlchoise_txt_titre">Contrôler</string>
+    <string name="controlchoise_txt_ask">Contrôler votre caméra</string>
+    <string name="btn_choise_manual">manuelement</string>
+    <string name="btn_choise_voice">par la voix</string>
+    <string name="btn_choise_refresh">actualiser</string>
+    <string name="btn_choise_help">aide</string>
+    <string name="controlchoise_txt_titre_camera">Votre Camera configurée :</string>
+    <string name="controlchoise_txt_camera">patientez</string>
+    <string name="controlchoise_txt_camera_empty">Aucune caméra disponible</string>
+    <string name="controlchoise_txt_titre_actualcamera">Votre Wifi Connecté:</string>
+    <string name="controlchoise_txt_actualcamera">patientez</string>
+    <string name="controlchoise_txt_typecamera">patientez</string>
+
+    <!-- Page CONTROL NO CAMERA -->
+    <string name="controlnocamera_txt_titre">Aucune Caméra</string>
+    <string name="controlnocamera_txt_1">Aucune caméra n\'est actuellement configurer.\n\nVeuillez configurer une caméra</string>
+    <string name="btn_controlnocamera_add">configurer caméra</string>
+    <string name="btn_controlnocamera_back">retour</string>
+    
+    
+    <!-- Page CONTROL MANUAL -->
+    <string name="controlmanual_txt_titre">Contrôle Manuel</string>
+    <string name="controlmanual_txt_1">Appuyez sur les boutons ci-dessous pour éffectuer une action sur votre caméra</string>
+    <string name="btn_manual_take_photo">prendre photo</string>
+    <string name="btn_manual_burst_photo">burst vidéo</string>
+    <string name="btn_manual_start">enregistrer video</string>
+    <string name="btn_manual_stop">arréter video</string>
+    <string name="btn_manual_camera_on">allumer caméra</string>
+    <string name="btn_manual_camera_off">éteindre caméra</string>
+    
+    <!-- Page CONTROL VOICE -->
+    <string name="controlvoice_txt_titre">Contrôle Vocal</string>
+    <string name="btn_voice_start">démarrer</string>
+    <string name="btn_voice_stop">arréter</string>
+    <string name="btn_voice_bluetooth_start">connect oreillette</string>
+    <string name="btn_voice_bluetooth_stop">déconnecter oreillette</string>
+    <string name="controlvoice_txt_action1">ACTION</string>
+    <string name="controlvoice_txt_action2">waiting..</string>
+    <string name="controlvoice_txt_result1">VOIX</string>
+    <string name="controlvoice_txt_result2">patientez..</string>
+    <string name="controlvoice_txt_partial_result1">PARTIEL</string>
+    <string name="controlvoice_txt_partial_result2">patientez..</string>
+    <string name="controlvoice_txt_process1">PROCESSUS EN COURS</string>
+    <string name="controlvoice_txt_process2">patientez..</string>
+    
+    <!-- Page UPDATE -->
+    <string name="update_txt_titre">Mise à jour</string>
+    <string name="btn_update_premium">télécharger</string>
+    
+    <!-- Page MEDIA -->
+    <string name="media_txt_titre">Média</string>
+    <string name="btn_media_premium">télécharger</string>
+
+    <!-- Page MEDIAERROR -->
+    <string name="mediaerror_txt_titre">Media</string>
+    <string name="mediaerror_txt1">Camera Non Connectés\n Verifier votre connexion</string>
+    <string name="btn_mediaerror_back">Retour</string>
+    
+    <!-- Page MEDIA1 -->
+    <string name="media1_txt_titre">Média</string>
+    <string name="media1_txt_result1">Sélectionner un média</string>
+    <string name="media1_txt_result2">Votre liste est vide</string>
+    
+    <!-- Page ADD -->
+    <string name="add_txt_titre">Configurer Votre Caméra</string>
+    <string name="add_txt_1">Vous allez maintenant associer votre caméra à l’application\n\nLa connexion entre votre GoPro et votre Smartphone est réalisée en Wi-Fi.\n\nVeuillez activer le Wi-Fi de votre Smartphone</string>
+    <string name="btn_add_start">démarrer</string>
+    
+    <!-- Page ADD2 -->
+    <string name="add2_txt_titre">Votre Camera</string>
+    <string name="add2_txt_1">Selectionné votre camera </string>
+    <string-array name="add2_txt_list">
+        <item>HERO6 BLACK</item>
+    	<item>HERO5 BLACK</item>
+    	<item>HERO5 SESSION</item>
+    	<item>HERO SESSION</item>
+    	<item>HERO+</item>
+    	<item>HERO4</item>
+    	<item>HERO3+/3/2</item>
+	</string-array>
+
+    <!-- Page ADD3 -->
+    <string name="add3_txt_titre">Votre Caméra</string>
+    <string name="add3_txt_1">Vous avez sélectionné </string>
+    <string name="add3_txt_2">aucune </string>
+    <string name="add3_txt_3">Vous allez maintenant connecté votre caméra au talknshoot.\n\nVous devez activer le Wi-Fi de votre caméra</string>
+    <string name="btn_add3_start">continuer</string>
+    <string name="add3_txt_4">Pour plus d\'informations réferé vous à l\'aide</string>
+    <string name="btn_add3_help">aide</string>
+    
+    <!-- Page ADD4 -->
+    <string name="add4_txt_titre">Connecté votre Caméra</string>
+    <string name="add4_txt_1">Selectionner le wifi de votre caméra </string>
+    <string name="btn_add4_start">neogopro</string>
+    
+    <!-- Page ADD4 PASSWORD -->
+    <string name="add4_password_txt_titre">Mot de Passe de Votre Caméra</string>
+    <string name="add4_password_txt_subtitre">Saisissez le Mot de Passe Wi-Fi de votre caméra</string>
+    <string name="btn_add4_password_start">continuer</string>
+    
+    <!-- Page ADD5 -->
+    <string name="add5_txt_titre">Sauvegarder cette configuration</string>
+    <string name="add5_txt_1">Les propriétées de vote caméra sont: </string>
+    <string name="add5_txt_subtitre_2">Type de Caméra:</string>
+    <string name="add5_txt_2">patientez... </string>
+    <string name="add5_txt_subtitre_3">Nom du Wi-Ffi de votre caméra</string>
+    <string name="add5_txt_3">patientez... </string>
+    <string name="add5_txt_subtitre_4">Mot de Passe Wi-Fi de votre caméra</string>
+    <string name="add5_txt_4">patientez...</string>
+    <string name="btn_add5_start">enregistrer</string>
+    
+    <!-- Page PARAMETER -->
+    <string name="parameter_txt_titre">Vos paramètres</string>
+    <string name="parameter_titre_txt_camera">Votre camera</string>
+    <string name="parameter_txt_camera">Quelle est votre caméra sport actuellement configurer ?</string>
+    <string name="btn_parameter_camera">consulter</string>
+    <string name="parameter_titre_txt_abo">A propos de votre application</string>
+    <string name="parameter_txt_abo">Quelles sont sont actuelement vos droit d\'accès ?</string>
+    <string name="btn_parameter_abo">consulter</string>
+    <string name="parameter_titre_txt_personnal">Vos données personnelles</string>
+    <string name="parameter_txt_personnal">Consulter vos données personnelles</string>
+    <string name="btn_parameter_personnal">consulter</string>
+    
+   	<!-- Page PARAMETER ABO -->
+    <string name="parameterabo_txt_titre">A propos de l\'application</string>
+    <string name="parameterabo_txt_jour">jour(s)</string>
+    <string name="parameterabo_txt_1">Votre instalation</string>
+    <string name="parameterabo_txt_2">Vous avez installer notre application le:</string>
+    <string name="parameterabo_txt_3">Votre abonnement</string>
+    <string name="parameterabo_txt_4">Vous pouvez utiliser gratuitement l\'application encore pendant:</string>
+    <string name="parameterabo_txt_5">au terme de cette pérdiode télécharger notre version premium</string>
+    <string name="btn_parameterabo_premium1">télécharger</string>
+    <string name="parameterabo_txt_6">Vous êtes abonné pour une période de:</string>
+    <string name="parameterabo_txt_7">au terme de cette pérdiode vous devrez mettre à jour votre version premium</string>
+    <string name="btn_parameterabo_premium2">se réabonner</string>
+    
+   	<!-- Page PARAMETER CAMERA -->
+    <string name="parametercamera_txt_titre">Votre caméra</string>
+    <string name="parametercamera_txt_1">Votre configuration actuelle est:</string>
+    <string name="parametercamera_txt_2">Aucune caméra n\'est actuellement configurée</string>
+    <string name="parametercamera_titre_txt_cameratype">Caméra</string>
+   	<string name="parametercamera_titre_txt_camerabrand">Fabriquant</string>
+   	<string name="parametercamera_titre_txt_wifiname">Nom du Wifi de la Caméra</string>
+   	<string name="parametercamera_titre_txt_wifipassword">mot de passe du Wifi</string>
+   	
+   	<!-- Page PARAMETER PERSONNAL -->
+    <string name="parameterpersonnal_txt_titre">Vos données personnelles</string>
+    <string name="parameterpersonnal_txt_sub_profil">Votre Profil</string>
+    <string name="parameterpersonnal_txt_empty">Aucune données personnelles enregistrées</string>
+    <string name="parameterpersonnal_txt_sub_lang">Votre langue</string>
+     <string name="parameterpersonnal_txt_lang">FRANCAIS</string>
+    <string name="btn_parameterpersonnal_back">retourr</string>
+    
+    <!-- Page DIALOG_BLUETOOTH -->
+    <string name="dialog_bluetooth_txt_titre">Oreillette Bluetooth</string>
+    <string name="dialog_bluetooth_txt_1">Allez dans le menu bluetooth pour connecter votre oreillette</string>
+    <string name="dialog_bluetooth_txt_2">Vérifier que votre oreillette est correctement connectée</string>
+    <string name="btn_dialog_bluetooth">Fermer</string>
+    
+   	<!-- Page CREDITS -->
+    <string name="credits_txt_titre">Crédits</string>
+    <string name="credits_txt_1"><![CDATA[<body style="width:100%;">
+     <p>Le Talk n Shoot est édité par la société <font color="#FF6600">NEOGICIEL</font>.
+     <br>
+     <p><font color="#FF6600">NEOGICIEL Technology</font><br>
+     487 rue des grives<br>
+     33127 Saint Jean d\'illac<br>
+     Enregistré au RCS de BORDEAUX : 478 420 409<br><br>
+     Brevet obtennu pour cette innovation technologique: Patents Pending (WO2017093439, FR3044784).<br>
+     </p>
+     <p align="center"><img src="pix_credits1.png"></p>
+    </body>]]></string>
+    
+</resources>

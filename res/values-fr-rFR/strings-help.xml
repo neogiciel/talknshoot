@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Page HELP -->
+    <string name="help_txt_titre">Le Talk’n Shoot</string>
+    <string name="help_txt_1"><![CDATA[<body>
+     <p>Couplé à une oreillette Bluetooth, le Talk’n Shoot vous permet de contrôler vôtre caméra sport par la voix.</p>
+     <p>Par exemple si vous dites « Démarrer Vidéo » dans votre oreillette, le Talk’n Shoot commande votre caméra 
+     et vous le confirme par le message « Enregistrement démarré » dans votre oreillette.</p>
+	<p>Avec le Talk’n Shoot, plus besoin d’utiliser vos mains pour immortaliser vos exploits.</p>
+
+	<p><b><font color="#FF6600">Les plus du Talk’n Shoot</font></b></p> 
+	<p><font color="#FF6600">1.La liberté d’utilisation:</font> avec le Talk’n Shoot, 
+	plus aucune manipulation pour commander sa caméra. 
+	Quel plaisir pour un skieur de ne plus enlever ses gants pour démarrer un film.</p> 
+	<p><font color="#FF6600">2.L’instantanéité:</font> avec le Talk’n Shoot, plus besoin de s’arrêter pour 
+	immortaliser ses exploits. Combien d’utilisateurs n’ont pas pu déclencher leur caméra au meilleur momment !!</p> 
+	<p><font color="#FF6600">3.La sécurité:</font> avec le Talk’n Shoot, plus besoin d’effectuer des manœuvres dangereuses. 
+	Pour un motard, fini de lâcher une main ou pire de regarder dans son rétroviseur si la lumière rouge clignote !!</p>
+	<p>
+	<p><font color="#FF6600">4.Plus de déception:</font> avec le retour vocal du Talk’n Shoot vous connaissez en permanence l’état de votre caméra, 
+	vous ne découvrirez plus que vous avez loupé la scène qu’il ne fallait pas manquer.</p>
+	<p align="center"><img src="pix_help1.png"></p>
+    </body>]]></string>
+    
+   
+    
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <!-- Camera list -->
+    <string name="helpwifi_control_hero6_black">7</string>
+    <string name="helpwifi_control_hero5_black">6</string>
+    <string name="helpwifi_control_hero5_session">5</string>
+    <string name="helpwifi_control_hero_session">4</string>
+    <string name="helpwifi_control_hero_plus">3</string>
+    <string name="helpwifi_control_hero_4">2</string>
+    <string name="helpwifi_control_hero_3">1</string>
+    
+    <!-- Page HELPWIFI -->
+    <string name="helpwifi_control_txt_titre">Connect Wifi Camera</string>
+    
+    <!-- Page HERO6 BLACK -->
+    <string name="helpwifi_control_txt_7"><![CDATA[<body><h1>HERO6 BLACK</h1>
+         <center><img src="camera_list_hero6black.png"></a></center>
+         <p>Connecter le Wifi de votre Caméra <strong>GoPro</strong>...</p>
+         </body>]]></string>
+    <!-- Page HERO5 BLACK -->
+    <string name="helpwifi_control_txt_6"><![CDATA[<body><h1>HERO5 BLACK</h1>
+         <center><img src="camera_list_hero5black.png"></a></center>
+         <p>Connecter le Wifi de votre Caméra <strong>GoPro</strong>...</p>
+         </body>]]></string>
+	<!-- Page HERO5 SESSION -->
+    <string name="helpwifi_control_txt_5"><![CDATA[<body><h1>HERO5 SESSION</h1>
+         <center><img src="camera_list_hero5session.png"></a></center>
+         <p>Connecter le Wifi de votre Caméra <strong>GoPro</strong>...</p>
+         </body>]]></string>
+	<!-- Page HERO SESSION -->
+    <string name="helpwifi_control_txt_4"><![CDATA[<body><h1>HERO SESSION</h1>
+         <center><img src="camera_list_herosession.png"></a></center>
+         <p>Connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         ...</p>
+         </body>]]></string>
+	<!-- Page HERO PLUS -->
+    <string name="helpwifi_control_txt_3"><![CDATA[<body><h1>HERO PLUS</h1>
+         <center><img src="camera_list_heroplus.png"></a></center>
+         <p>Connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         ...</p>
+         </body>]]></string>
+	<!-- Page HERO 4 -->
+    <string name="helpwifi_control_txt_2"><![CDATA[<body><h1>HERO 4</h1>
+         <center><img src="camera_list_hero4.png"></a></center>
+         <p>Connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         ...</p>
+         </body>]]></string>
+	<!-- Page HERO 3/2 -->
+    <string name="helpwifi_control_txt_1"><![CDATA[<body><h1>HERO3+/3/2</h1>
+         <center><img src="camera_list_hero2.png"></a></center>
+         <p>Connecter le Wifi de votre Caméra <strong>GoPro</strong>
+         ...</p>
+         </body>]]></string>
+    
+</resources>

@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/back_nav">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp" >
+ 
+        <TextView
+           android:id="@+id/txt_titre"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_titre_size"
+           android:textColor="@color/txt_titre_color"
+           android:text="@string/controlmanual_txt_titre" />
+  </LinearLayout>    
+  
+  <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp" >
+ 
+        <TextView
+           android:id="@+id/txt_1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/controlmanual_txt_1"
+           android:paddingLeft="12dp" 
+           android:textSize="@dimen/txt_size"
+           android:textColor="@color/txt_color" />
+  </LinearLayout>  
+  
+   <LinearLayout
+       	android:id="@+id/layout3"
+       	android:layout_below="@+id/layout2"
+		android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp" >
+ 
+       
+        <Button
+        	android:id="@+id/btn_manual_start"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_manual_start"/>
+       
+        <Button
+        	android:id="@+id/btn_manual_stop"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_manual_stop"/>
+       
+	</LinearLayout>    
+    		
+    <LinearLayout
+       	android:id="@+id/layout4"
+       	android:layout_below="@+id/layout3"
+		android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp" >
+ 
+       <Button
+        	android:id="@+id/btn_manual_take_photo"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_manual_take_photo"/>
+
+              <Button
+        	android:id="@+id/btn_manual_burst_photo"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_manual_burst_photo"/>
+       
+    		</LinearLayout>    
+    		
+    <LinearLayout
+       	android:id="@+id/layout5"
+       	android:layout_below="@+id/layout4"
+		android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp" >
+ 
+       <Button
+        	android:id="@+id/btn_manual_camera_on"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_manual_camera_on"/>
+
+              <Button
+        	android:id="@+id/btn_manual_camera_off"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="50"
+        	android:padding="10dp"
+        	android:textSize="@dimen/txt_button_size"
+           	android:textColor="@color/btn_txt_color"
+        	android:background="@drawable/android_button"
+        	android:text="@string/btn_manual_camera_off"/>
+       
+    		</LinearLayout>    
+</RelativeLayout>
